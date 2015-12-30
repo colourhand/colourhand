@@ -210,7 +210,7 @@ img {
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
-    margin: 60% auto;
+    margin: 10% auto;
     line-height: 30px;
 }
 /*确认  and  取消*/
@@ -223,7 +223,7 @@ img {
 }
 #sha-dialog{
     display: block;
-    margin: 60% auto;
+    margin: 30% auto;
     left: 0;
     right: 0;
     top: 0;
