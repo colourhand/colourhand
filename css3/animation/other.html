@@ -1,0 +1,31 @@
+<html>
+<head>
+    <style>
+        div
+        {
+            width:100px;
+            height:100px;
+            background:red;
+            position:relative;
+            animation:mymove 5s ease-out;
+            -webkit-animation:mymove 5s ease-out; /* Safari and Chrome */
+        }
+
+        @keyframes mymove
+        {
+            from {top:0px;}
+            to {top:200px;}
+        }
+
+        @-webkit-keyframes mymove /* Safari and Chrome */
+        {
+            from {top:0px;}
+            to {top:200px;}
+        }
+    </style>
+</head>
+<body>
+<p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+<div></div>
+</body>
+</html>

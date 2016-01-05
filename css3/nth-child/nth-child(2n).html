@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0
+        ;
+            margin: 0px;
+
+        }
+        li{
+            list-style-type: none;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            vertical-align: middle;
+            display: table;
+        }
+        #demo li{
+            float:left;
+        }
+        #demo li:nth-child(4n+1){
+            clear:left;
+            background-color:#999;
+        }
+        #demo li:nth-child(4n+2){
+            background-color:#aaa;
+        }
+        #demo li:nth-child(4n+3){
+            background-color:#ccc;
+        }
+        #demo li:nth-child(4n+4){
+            background-color:#eee;
+        }
+    </style>
+</head>
+<body>
+<section id="demo">
+    <h1>我想每个显示4个方块，并且每列的背景色都不相同？</h1>
+    <ul>
+        <li>1</li><li>2</li><li>3</li><li>4</li>
+        <li>5</li><li>6</li><li>7</li><li>8</li>
+        <li>9</li><li>10</li><li>11</li><li>12</li>
+        <li>13</li><li>14</li><li>15</li><li>16</li></ul></section>
+</body>
+</html>
